@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    background-color: rgba(241, 241, 241, 1);
+}
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container {
+    margin: 0px 80px;
+    max-width: 1440px;
+}
+
+.header{
+    padding: 12px 0px 12px 0px;
+}
+
+.nav_list {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #081E34;
+}
+
+.nav_list > :first-child {
+    font-family: "Kanit", sans-serif;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    font-size: 18px;
+    color: black;
+    margin: 0px;
+}
+
+.nav_list > :first-child p {
+    padding-left: 10px;
+    
+}
+
+.nav_list_item {
+    padding: 10px 12px;
+    margin-left: 16px;
+}
+
+.header_button {
+    padding: 10px 12px;
+    border-radius: 100px;
+    border: none;
+    margin-left: 16px;
+    background-color: rgba(8, 30, 52, 0.12);
+    cursor: pointer;
+}
+
+/* main_info */
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0px;
+}
+
+.main_info {
+    max-width: 495px;
+}
+.main_info_heading {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 54px;
+    line-height: 64px;
+}
+
+.main_info_param {
+    font-size: 14px;
+    margin-top: 32px;
+    font-weight: normal;
+}
+
+.main_info_button {
+    padding: 16px 24px;
+    background-color: rgba(113, 47, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    border-radius: 100px;
+    border: none;
+    margin-top: 48px;
+}
+
+/* section_1 */
+
+.section_1 {
+    text-align: center;
+    padding: 100px 0px;
+    background-color: rgba(225, 222, 231, 1);
+}
+.section_1_heading {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 54px;
+    line-height: 64px;
+}
+.section_1_cards {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 86px;
+}
+
+.section_1_card {
+    text-align: start;
+}
+.section_1_card h2 {
+    font-size: 24px;
+    margin-top: 48px;
+    margin-bottom: 24px;
+}
+.section_1_card span {
+    font-size: 16px;
+}
+
+/* find_job */
+
+.section_find_job {
+    padding: 100px 0px;
+}
+
+.find_job_heading {
+    font-family: "Kanit", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 54px;
+    line-height: 64px;
+}
+
+.find_job_desc {
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.find_job_input {
+    box-sizing: border-box;
+    width: 100%;
+    width: 629px;
+    padding: 12px 0px 12px 45px;
+    border-radius: 12px;
+    border:1px;
+    outline:0;
+    border-color: rgba(225, 222, 231, 1);
+}
+
+input:focus {outline:none!important;}
+
+.find_job_button {
+    padding: 16px 24px;
+    background-color: rgba(113, 47, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    border-radius: 100px;
+    border: none;
+    margin-left: 32px;
+    
+}
+
+/* section_cv_submission */
+
+.section_cv_submission {
+    display: flex;
+    padding: 64px 0px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.section_cv_submission .main_image img {
+       width: 674px; 
+}
+
+.upload_cv {
+    max-width: 495px;
+}
+
+.upload_cv_button {
+    padding: 16px 24px;
+    background-color: rgba(113, 47, 255, 1);
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    border-radius: 100px;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+.upload_cv_button img {
+    margin-right: 8px;
+}
+
+/* footer */
+
+.footer {
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 32px 32px 0px 0px;
+    padding: 32px 0px;
+}
+
+.footer_list {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    align-items: center;
+}
+
+.footer_list_item {
+    padding: 10px 12px;
+}
+.social_media img{
+    margin-right: 16px ;
+}
+
+.footer_list > :last-child {
+    color: rgba(8, 30, 52, 1);
+}
+
+.made_by{
+    margin-bottom: 32px;
+}
+.made_by p {
+ color: #081E34;
+ font-size: 14px;
+ float: right;
+ padding: 10px 12px;
+}
+
+@media (min-width: 480px) {
+    .find_job_input {
+        width: 50%;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        margin: 0 20px;
+    }
+
+    .nav_list_item {
+        display: none;
+    }
+
+    .header_button {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .main {
+        flex-direction: column-reverse;
+        text-align: center;
+        padding: 40px 0;
+    }
+
+    .main_info_heading {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    .main_image img {
+        width: 100%;
+    }
+
+    /* .section_1 {
+        padding: 60px 20px;
+    } */
+
+    .section_1_heading {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .section_1_cards {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .section_1_card img {
+        max-width: 40px;
+    }
+
+    .section_1_card h2{
+        font-size: 20px;
+    }
+
+    .section_1_card span {
+        font-size: 14px;
+    }
+
+    .find_job_heading {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .find_job_input {
+        margin-bottom: 16px;
+        width: 100%;
+    }
+
+    .find_job_button {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .section_cv_submission {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section_cv_submission img {
+        width: 100%;
+    }
+
+    .footer_list {
+        flex-direction: column;
+        align-items: start;
+        gap: 8px;
+        text-align: start;
+    }
+
+    .made_by p {
+        float: none;
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        margin: 0 24px;
+    }
+
+    .main {
+        flex-direction: column-reverse;
+        gap: 32px;
+        text-align: center;
+    }
+
+    .section_1_cards {
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .section_cv_submission {
+        flex-direction: column;
+        gap: 32px;
+    }
+    .main_image{
+        max-width: 100%;
+    }
+
+    .block_find_job {
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .main {
+        padding: 40px 0;
+    }
+
+    .section_cv_submission {
+        gap: 20px;
+    }
+
+    .main_image{
+        max-width: 100%;
+    }
+    .section_cv_submission img {
+       max-width: 100%; 
+    }
+        .footer_list {
+        flex-wrap: wrap;
+        gap: 16px;
+        justify-content: center;
+        text-align: center;
+    }
+}
